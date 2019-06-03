@@ -5,4 +5,4 @@
 - bodyParser
 
 ## DEMO
-[LIVE](https://node-express-api-v1.herokuapp.com/)
+[LIVE](https://musavy.github.io/Express-node/.)
