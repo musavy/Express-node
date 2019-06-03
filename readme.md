@@ -5,4 +5,4 @@ Musavy
 - Express
 
 ## DEMO
-[LIVE](https://musavy.github.io/Express-node/.)
+[LIVE](https://musavy.github.io/Express-node/.index)
