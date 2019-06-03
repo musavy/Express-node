@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+img {
+    max-width: 20%;
+    min-width: 20%;
+    border: 2px solid rgb(223, 214, 214);
+    justify-content: space-between;
+    padding: 35px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+
+
+h1 {
+  text-align: center;
+    font-size: 48px;
+    text-shadow: -1px -1px #9df, 1px 1px #49d, -3px 0 4px #000;
+    font-family: "Segoe print", Arial, Helvetica, sans-serif;
+    color: #6bf;
+    padding: 24px 32px 32px 32px;
+    font-weight: lighter;
+    -moz-box-shadow: 2px 2px 6px #888;
+    -webkit-box-shadow: 2px 2px 6px #888;
+    box-shadow: 2px 2px 6px #888;
+    text-align: center;
+    display: inline;
+    line-height: 150px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+
+nav {
+    width: 450px;
+    height: 110px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    border-bottom: 2px solid #fff;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    width: 140px;
+    float: left;
+    color: #fff;
+    padding: 15px;
+    transform: rotate(-45deg);
+    margin-top: 50px;
+    padding-left: 45px;
+    box-shadow: 0 0 5px #000;
+    position: relative;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#red {
+    background-color: #dc143c;
+}
+
+#purple {
+    background-color: #8b008b;
+    margin-left: -72px;
+}
+
+#pink {
+    background-color: #ff1493;
+    margin-left: -72px;
+}
+
+#blue {
+    background-color: #1e90ff;
+    margin-left: -72px;
+}
+
+#green {
+    background-color: #228b22;
+    margin-left: -72px;
+}
+
+#red:hover,
+#purple:hover,
+#pink:hover,
+#blue:hover,
+#green:hover,
+#red:focus,
+#purple:focus,
+#pink:focus,
+#blue:focus,
+#green:focus {
+    background-color: #fafafa;
+    color: #000;
+    text-shadow: none;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Node Express API</title>
+</head>
+
+<body>
+    <header>
+    <div class="main">
+        <nav>
+            <a href="/" id="red">Home</a>
+            <a href="about" id="purple">About</a>
+            <a href="/contacts" id="pink">Contacts</a>
+            <a href="/students" id="blue">Students</a>
+            <a href="/api/v1/students" id="green">API</a>
+        </nav>
+    </div>
+        <h1>Students</h1>
+    </header>
+    <h2>Length:<%= students.length %></h2>
+    <div>
+        <% for(const student of students) { %>
+        <a href="/students/<%= student.id %>">
+            <div>
+                <h2><%= student.name %></h2>
+                <p><%= student.country %></p>
+                <p><%= student.age %></p>
+                <% } %>
+            </div>
+        </a>
+    </div>
+</body>
+
+</html>
