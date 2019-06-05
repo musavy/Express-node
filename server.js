@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 5000;
+const ulr ="mongodb+srv://<miranmusavy>:<0797762657Jan%>@cluster0-0e49m.mongodb.net/test?retryWrites=true&w=majority"
 const bodyParser = require('body-parser');
 const students = require('./data/students');
 
